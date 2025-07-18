@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mirror {
+  transform: scaleX(-1);
+}
+
+video {
+  background-color: #1f2937 !important;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
